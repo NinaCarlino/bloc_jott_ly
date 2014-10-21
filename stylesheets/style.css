@@ -109,8 +109,12 @@ nav ul li{
 }
 
 nav ul li a{
+<<<<<<< HEAD
   font-family: Helvetica, sans-serif;
   font-size: 18px;
+=======
+  font:bold 18px Helvetica, sans-serif;
+>>>>>>> gh-pages
   color: #f39c12;
 
 }
