@@ -109,8 +109,7 @@ nav ul li{
 }
 
 nav ul li a{
-  font-family: Helvetica, sans-serif;
-  font-size: 18px;
+  font:bold 18px Helvetica, sans-serif;
   color: #f39c12;
 
 }
