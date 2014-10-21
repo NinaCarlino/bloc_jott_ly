@@ -1,0 +1,407 @@
+html, body{
+  font-family: Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+h1, h2, h4{
+  color: #f39c12;
+}
+h1{
+  font-size: 72px;
+  margin-bottom: 70px;  
+}
+h2{
+  font-size: 36px;
+}
+h4{
+  font-size: 24px;
+}
+h2, h4, p{
+  margin-bottom: 20px;
+}
+a:hover{
+  color: #e74c3c;
+  opacity: 0.5; 
+}
+
+a:active, a:visited{
+  color: #e74c3c;
+}
+
+
+li{
+  margin-bottom: 20px;
+}
+
+
+.top-page{
+  background: #000 url('../images/float-wall-desk.gif') no-repeat center center;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height:550px;
+}
+
+@media only screen and (max-width: 479px) {
+  .top-page{
+    height:650px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .top-page{
+    height:650px;
+  }
+}
+
+header{
+  width: 100%;
+  height: 100px;
+}
+
+.logo img{
+  width:45px;
+  height:45px;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+@media only screen and (max-width: 479px) {
+  .logo img{
+    margin-left: 125px;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .logo img{
+    float: none;
+    margin-left: 185px;
+    text-align: center;
+  }
+}
+
+nav ul{
+  float: right;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 479px) {
+  nav ul{
+    float: none;
+    margin: 20px auto;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  nav ul{
+    float: none;
+    margin: 20px auto;
+    text-align: center;
+  }
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline;
+  padding-left: 10px;
+  color: #f39c12;  
+}
+
+nav ul li a{
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  color: #f39c12;
+
+}
+
+.marketing{
+  text-align: center;
+  color: #f39c12;
+  margin-top: 50px;
+}
+
+.marketing div h1{
+  font-family: 'Pacifico', Helvetica, sans-serif;
+  font-size: 84px;
+}
+
+img{
+  max-width: 100%;
+  height: auto !important;
+}
+
+input[type="button"].signup{
+  width: 250px;
+  background-color: #e74c3c;
+  border-radius: 5px;
+  font-family: Arial, sans-serif; 
+  font-size: 20px; 
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+input[type="button"]:hover{
+  opacity: 0.7;
+  background: #e74c3c;
+  border: none;
+  color: #ffffff;
+  
+
+}
+
+input[type="button"] {
+    background: #e74c3c;
+    border: none;
+    color: #ffffff; 
+}
+
+input:focus{
+  outline:none;
+}
+
+.content{
+  width: 100%;
+  background-color:#ffffff;
+  font-size: 18px;
+  padding: 20px 0;
+  color: #b1b2b3;
+
+}
+
+#red{  
+  background-color: #e74c3c;
+  color: #ffffff;
+
+}
+
+#devices img{
+  margin-left: -20px;
+}
+
+.subcontent{
+  margin-top: 70px;
+
+}
+@media only screen and (max-width: 479px) {
+  .subcontent{
+    margin-top: 20px;
+  }
+}
+
+.try-button{
+  width: 150px;
+  background-color: #f39c12;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+.try-button a{
+  color: #ffffff;
+}
+
+
+.testimonial-wrapper{
+  width: 100%;
+  padding: 50px 0;
+  background-color: #e5e3e1;
+  text-align: center;
+  color: #6d6f70;
+}
+
+.first{
+  padding:0 20px;
+}
+
+@media only screen and (max-width: 479px) {
+  .first{
+    padding:0px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .first{
+    padding: 0 5px;  
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .first{
+    padding: 0 5px;  
+  }
+}
+
+.second{
+  padding:0 20px;
+}
+
+@media only screen and (max-width: 479px) {
+  .second{
+    padding:0px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .second{
+    padding: 0 5px;  
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .second{
+    padding: 0 5px;  
+  }
+}
+
+.third{
+  padding:0 20px;
+}
+
+@media only screen and (max-width: 479px) {
+  .third{
+    padding:0 5px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .third{
+    padding: 0 5px;  
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .third{
+    padding: 0 5px;  
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .testimonial-wrapper{
+    padding:0px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .testimonial{
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .testimonial h4, .testimonial p{
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .testimonial h4, .testimonial p{
+    margin-left: 0px;  
+  }
+}
+
+
+@media only screen and (max-width: 479px) {
+  .testimonial img{
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .testimonial img{
+    margin-left: 0px;
+  }
+}
+
+.end-statement{
+  width: 100%;
+  padding: 50px 0;
+  background-color: #f39c12;
+}
+
+.textbox{
+  width: 100%;
+  text-align: center;
+  color: #6d6f70;
+}
+
+@media only screen and (max-width: 479px) {
+.textbox{
+    padding: 20px 0 20px 0;
+  } 
+}
+
+.textbox h2{
+  color: #e5e3e1;
+  }
+
+.textbox p{
+  color: #e5e3e1;
+  }
+
+footer{
+  width: 100%;
+  padding: 20px 0;
+
+}
+
+@media only screen and (max-width: 479px) {
+  footer p{
+    text-align: center;
+    margin-top: 20px;
+  }
+  footer ul{
+    text-align: center;
+  }
+  footer ul li a{
+    color: #f39c12;
+  }
+  footer ul li:first-child{
+  padding-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  footer p{
+    text-align: center;
+    margin-top: 20px;
+  }
+  footer ul{
+    text-align: center;
+  }
+  footer ul li a{
+    color: #f39c12;
+  }
+  footer ul li:first-child{
+  padding-left: 0px;
+  }  
+}
+
+
+
+.footer-nav{
+  padding-left:72%;
+}
+
+.footer-nav li{
+  display: inline;
+  padding-left: 20px;
+}
+
+@media only screen and (max-width: 479px) {
+  .footer-nav{
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-nav{
+    padding-left: 0px;
+  }    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .footer-nav{
+    padding-left: 60%;
+  }
+}
